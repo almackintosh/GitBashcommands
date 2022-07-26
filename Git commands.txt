@@ -1,0 +1,25 @@
+General commands:
+
+ctrl c 		= cancel
+pwd 		= see which directory you're in
+cd 'path name'	= change directory
+cd ..		= change directory to one path above
+ls		= list what's in current directory
+
+
+Git commands:
+
+git clone <HTTPS link>		= pulls repository from github onto local machine
+git branch			= see which branch you're on
+git checkout -b <branch name>	= create new branch
+git checkout main		= switch to main branch
+git status			= NB view changes across a project; red - unstaged, green - staged
+git add <file name>		= staging changes in last file/script from git status to branch
+git add . 			= staging all changes across the project
+git commit -m "message"		= commit changes to local with message in ""
+git push origin <branch name>	= pushes branch to github ie. not local anymore
+git branch -d <branch name>	= delete branch locally
+git branch origin -d >b name>	= deletes branch from github - NEVER use with main branch 
+git pull origin main		= pull updated main from github ie. after branches have been merged
+
+**remote_name = origin in most cases (or unless otherwise set)
