@@ -9,7 +9,7 @@ ls		= list what's in current directory
 
 Git commands:
 
-git clone <HTTPS link>		= pulls repository from github onto local machine
+git clone <HTTPS link>		= pulls repository from github onto local machine, HTTPS link from github
 git branch			= see which branch you're on
 git checkout -b <branch name>	= create new branch
 git checkout main		= switch to main branch
