@@ -1,11 +1,14 @@
 General commands:
 
-ctrl c 		= cancel
-pwd 		= see which directory you're in
-cd 'path name'	= change directory
-cd ..		= change directory to one path above
-ls		= list what's in current directory
+ctrl c          		= cancel
+pwd         		    = see which directory you're in
+cd 'path name'    	= change directory
+cd ..	             	= change directory to one path above
+ls		              = list what's in current directory
 
+Shortcuts:
+
+ctrl l              = clears command line without deleting history (Scrolls down)
 
 Git commands:
 
